@@ -1,0 +1,110 @@
+@import url("https://meyerweb.com/eric/tools/css/reset/reset.css");
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css");
+:root {
+  /* Project */
+  --gradient: linear-gradient(#4c6dd0 0%, #04befe 100%);
+  --gradient_re: linear-gradient(#04befe 0%, #4c6dd0 91%);
+  /* Grayscale */
+  --gray_000: #ffffff;
+  --gray_100: #faf8f8;
+  --gray_200: #f2eeee;
+  --gray_300: #e4dfdf;
+  --gray_400: #d1cbcb;
+  --gray_500: #b6b1b1;
+  --gray_600: #948e8e;
+  --gray_700: #686464;
+  --gray_800: #353333;
+  --gray_900: #000000;
+  /* Primary */
+  --pr_000: #f5f7ff;
+  --pr_100: #c6d3fc;
+  --pr_200: #97aef3;
+  --pr_300: #6e8be5;
+  --pr_400: #4c6dd0;
+  --pr_500: #3354b7;
+  --pr_600: #2343a1;
+  --pr_700: #193791;
+  --pr_800: #143188;
+  --pr_900: #112e85;
+  /* Secondary */
+  --se_000: #fff8f5;
+  --se_100: #fdf5f1;
+  --se_200: #f9ede8;
+  --se_300: #f2e2da;
+  --se_400: #e9d1c6;
+  --se_500: #ddbdae;
+  --se_600: #cda492;
+  --se_700: #b88a74;
+  --se_800: #a06f58;
+  --se_900: #875741;
+  /* length */
+  --col: 8.8rem;
+  --g: 1.4rem;
+  --gu: calc(var(--g) * 2); /* = 2.8rem */
+  --row: 2.8rem;
+  --unit: calc(var(--col) + var(--gu));
+  --layout: calc(var(--unit) * 12 - var(--gu));
+}
+
+html {
+  font-size: 62.5%; /* 기본폰트 16px * 62.5% = 10px */
+  /* unit = 1rem = 10px */
+}
+body {
+  font-family: Pretendard, sans-serif;
+  font-size: 1.6rem;
+  line-height: 1.75;
+  color: var(--gray_900, #000000);
+}
+a {
+  color: var(--gray_800, #353333);
+  text-decoration: none;
+  font-size: 1.6rem;
+}
+button,
+.button {
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 1.6rem;
+}
+h1,
+.h1 {
+  font-weight: 100;
+  font-size: 6.4rem;
+  letter-spacing: -2px;
+}
+h2,
+.h2 {
+  font-weight: 300;
+  font-size: 4.8rem;
+  letter-spacing: -0.8px;
+}
+h3,
+.h3 {
+  font-weight: 300;
+  font-size: 3.2rem;
+  letter-spacing: -0.8px;
+}
+h4,
+.h4 {
+  font-weight: 400;
+  font-size: 2.2rem;
+  letter-spacing: 0px;
+}
+body,
+.body {
+  font-weight: 400;
+  font-size: 1.6rem;
+  letter-spacing: -0.4px;
+}
+.comment {
+  font-weight: 400;
+  font-size: 1.2rem;
+  letter-spacing: 0px;
+}
+strong,
+.strong {
+  font-weight: 700;
+  font-size: 1.6rem;
+  letter-spacing: -0.8px;
+}

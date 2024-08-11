@@ -1,0 +1,56 @@
+/* 나중에 삭제 */
+header {
+  height: 64.4rem;
+  width: 100%;
+  background-color: var(--gray_500);
+}
+main {
+  height: 118.6rem;
+  width: 100%;
+  background-color: var(--gray_200);
+}
+footer {
+  height: 27.4rem;
+  width: 100%;
+  background-color: var(--gray_700);
+}
+.inner {
+  background-color: var(--gray_400);
+  opacity: 0.2;
+  height: inherit;
+}
+/* ====================================
+    ============== components ===============    
+==================================== */
+
+.wrap {
+  display: flex;
+  flex-direction: column;
+  gap: 8.4rem;
+}
+.inner {
+  width: 100%;
+  max-width: var(--layout);
+  margin: 0 auto;
+}
+
+button,.button{
+    display: block;
+    padding: 1.6rem 4.6rem;
+    border-radius: 0.8rem;
+    text-align: center;
+    flex-shrink: 0;
+}
+.cta{
+    background-color: var(--gray_800);
+    border: 1px solid transparent;
+    color: var(--gray_400);
+}
+.ghost{
+    background-color: transparent;
+    border: 1px solid var(--gray_800);
+}
+.normal{
+    box-sizing: border-box;
+    border: 1px solid transparent;
+}

@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="utf-8" />
+  <title>Swiper demo</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
+  <!-- css -->
+  <link rel="stylesheet" href="./css/all.css">
+</head>
+
+<body>
+  <div class="wrap">
+    <div class="swiper vertical">
+      <div class="swiper-wrapper">
+        <header class="swiper-slide pr">
+          <nav class="gnb pa">
+            <div class="inner df">
+              <h1 class="logo">
+                <a href="#" class="logo"></a>
+              </h1>
+              <nav>
+                <ul>
+                  <li><a href="#">ABOUT US</a>
+                  <ul class="depth2">
+                    <li>
+                      <a href="#">CDAMO</a>
+                    </li>
+                    <li>
+                      <a href="#">History</a>
+                    </li>
+                    <li>
+                      <a href="#">Leadership</a>
+                    </li>
+                    <li>
+                      <a href="#">Certification</a>
+                    </li>
+                    <li>
+                      <a href="#">Locations</a>
+                    </li>
+                  </ul></li>
+                  <li><a href="#">ONE-STOP CDAMO</a></li>
+                  <li><a href="#">SERVICES</a></li>
+                  <li><a href="#">FACILITY</a></li>
+                  <li><a href="#">PEOPLE</a></li>
+                  <li><a href="#">NEWS&MEDIA</a></li>
+                  <li><a href="#">INQUIRY</a></li>
+                </ul>
+              </nav>
+              <div class="snb df">
+                <div class="language">
+                  <ul>
+                    <li><a href="#" class="on">KOR</a></li>
+                    <li><a href="#" class="off">ENG</a></li>
+                  </ul>
+                </div>
+                <div class="contact"><a href="#" class="cbtn">
+                  <div class="bg">
+                    <svg class="moving_svg" version="1.1" id="&#xB808;&#xC774;&#xC5B4;_1" xmlns="http://www.w3.org/2000/svg"
+                      xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="100px" height="33.02px" viewBox="0 0 101 34.028"
+                      style="enable-background:new 0 0 101 34.028;" xml:space="preserve">
+                      <path d="M17.014,0.5h66.972c9.121,0,16.515,7.394,16.515,16.515
+                                s-7.394,16.514-16.515,16.514H17.014c-9.12,0-16.514-7.393-16.514-16.514S7.894,0.5,17.014,0.5z" id="c_path" />
+                    </svg>
+                  </div><span>CONTACT</span></a></div>
+                <div class="btn">
+                  <div>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                  </div>
+                  <div>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                  </div>
+                  <div>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                  </div>
+                  <div>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </nav>
+          <div class="main_banner pa">
+            <div class="inner">
+              <div class="titlewrap">
+                  <div>
+                    <h3>New VALUE</h3>
+                  </div>
+                  <div>
+                    <h3 class="text2">CREATION</h3>
+                  </div>
+                  <div>
+                    <h3 class="text3">for CLIENT</h3>
+                  </div>
+              </div>
+              <p>고객의 가치를 함께 만들어가는 CDAO 전문기업</p>
+              <div class="scroll">
+              </div>
+            </div>
+          </div>
+        </header>
+        <section class="swiper-slide">PRESS & NOTICE</section>
+        <section class="swiper-slide">SERVICE</section>
+        <section class="swiper-slide">FACILITY</section>
+        <section class="swiper-slide">Slide 5</section>
+        <div class="swiper-slide">MEDIA</div>
+        <div class="swiper-slide">CONTACT US</div>
+        <div class="swiper-slide">Slide 8</div>
+        <div class="swiper-slide">Slide 9</div>
+      </div>
+      <div class="swiper-pagination"></div>
+    </div> <!-- //.vertical -->
+  </div>
+  <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script>
+
+    var swiper = new Swiper(".vertical", {
+      direction: "vertical",
+      slidesPerView: 1,
+      spaceBetween: 30,
+      mousewheel: true,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+    });
+  </script>
+</body>
+
+</html>

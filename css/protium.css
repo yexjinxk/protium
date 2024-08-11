@@ -1,0 +1,61 @@
+/* ====================================
+============== layout ===============
+==================================== */
+
+html,
+body,
+.wrap {position: relative;height: 100%;font-family: "Wix Madefor Display", "Noto Sans KR", "돋움", dotum, sans-serif;  }
+
+.swiper {width: 100%;height: 100%; }
+
+.inner {padding: 6% 95px; }
+
+/* ====================================
+============== header ===============
+==================================== */
+header .inner {padding-top: 1%; }
+header .gnb {height: 10rem;background-color: var(--gray_800);left: 0;right: 0;z-index: 999; }
+header .gnb:before{content: ""; position: absolute; background: #fff; width: 100%; height: 0; z-index: 999;}
+/* header .gnb .inner nav:before{content: ""; position: absolute; background: #fff; width: 100%; height: 0; z-index: 999;} */
+header .inner h1 a {display: block;width: 130px;height: 55px;background: url(../imgs/logo1.png) no-repeat;text-indent: -9999px; }
+header .inner nav ul {display: flex; justify-content: center;align-items: center; left: 51rem; /* margin:0 230px; */ height: 65px;}
+header .inner nav ul li {position: relative;margin: 0 2.5rem; }
+header .inner nav ul li a {position: relative;display: block;font-size: 17px;color: #fff;font-weight: 500;line-height: 100px; }
+header .inner .snb {position: absolute;align-items: center;right: 95px; padding-top: 13px;}
+header .inner .snb .language ul li {margin: 0 1rem; }
+header .snb .language {margin-right: 20px; }
+header .snb .language ul .on {color: #fff; }
+header .snb .language ul li a {font-weight: 500;font-size: 12px;color: rgba(255, 255, 255, 0.55); }
+header .snb .contact .cbtn {position: relative; display: block; width: 100px; fill: none; stroke: #fff; text-align: center;}
+header .snb .contact .cbtn>.bg {position: absolute;top: 0;left: 0; }
+header .snb .contact .cbtn:hover>.bg #c_path {fill: none; stroke: #e8440a; stroke-miterlimit: 10;}
+header .snb .contact .cbtn>span {color: #fff; text-align: center; font-size: 12px; line-height: 34px; }
+header .snb .btn {position: relative;margin-left: 2.6rem; }
+header .snb .btn div {width: 100%;margin-bottom: 3px;display: flex;align-items: center; }
+header .snb .btn div span {display: block;width: 4px;height: 4px;background: #fff;border-radius: 50%;margin-right: 3px; }
+header .main_banner {width: 100%;height: 100vh;left: 0;top: 0;background-image: url(../imgs/main_visual1.jpg);background-size: cover; }
+/* header .main_banner .inner .titlewrap {width: 100%;position: absolute;top: 36%;left: 60%;transform: translate(-50%, -50%); } */
+header .titlewrap h3 {font-size: 140px;color: #fff;font-family: 'Wix Madefor Display';font-weight: 700;margin-bottom: -107px; }
+header .titlewrap h3.text2 {margin-left: 38.5rem; }
+header .titlewrap h3.text3 {margin-left: 12rem; }
+header .titlewrap h3 {font-size: 140px;color: #fff;font-family: 'Wix Madefor Display';font-weight: 700;margin-bottom: -107px; }
+header .titlewrap h3.text2 {margin-left: 34.5rem; }
+header .titlewrap h3.text3 {margin-left: 13rem; }
+header .inner p {font-size: 20px;color: #fff;font-family: 'Wix Madefor Display';text-align: center;margin-top: 39.5%; }
+header .inner .detail {text-align: center; }
+.head {width: 100%;box-sizing: border-box;position: relative;height: 100px;padding: 0 4vw;}
+.language ul {display: flex;}
+/* ====================================
+============== main ===============
+==================================== */
+.main_banner .inner .scroll{position: absolute; left: 50%; bottom: 40px; z-index: 100; width: 80%; height: 80%;border-radius: 50%;}
+.main_banner .scroll:before{display: block; position: absolute; content: ""; left: 0%; top: 95%; transform: translate(-50%, -50%); background: url(/projects/protium/imgs/scroll_visual.png) no-repeat center; width: 100%; height: 100%; border-radius: 50%;}
+.main_banner .scroll::after{display: block; position: absolute; content: ""; left: 0%; top: 95%; transform: translate(-50%, -50%) rotate(0deg);background: 0; width: 4.5%; height: 9%; border-radius: 50%; border-right: 2px solid rgba(255, 255, 255, 1); animation: scroll 1.5s infinite linear;}
+@keyframes scroll{
+	0%{transform:translate(-50%, -50%) rotate(0deg);}
+	25%{transform:translate(-50%, -50%) rotate(90deg);}
+	50%{transform:translate(-50%, -50%) rotate(180deg);}
+	75%{transform:translate(-50%, -50%) rotate(270deg);}
+	100%{transform:translate(-50%, -50%) rotate(360deg);}
+}
+.main_banner .inner .titlewrap{width: 100%; position: absolute; top: 40%; left: 68.5%; transform: translate(-50%, -50%);}
