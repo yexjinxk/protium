@@ -54,7 +54,7 @@ header .inner .detail {text-align: center; }
 ============== main ===============
 ==================================== */
 .main_banner .inner .scroll{position: absolute; left: 50%; bottom: 40px; z-index: 100; width: 80%; height: 80%;border-radius: 50%;}
-.main_banner .scroll:before{display: block; position: absolute; content: ""; left: 0%; top: 95%; transform: translate(-50%, -50%); background: url(/projects/protium/imgs/scroll_visual.png) no-repeat center; width: 100%; height: 100%; border-radius: 50%;}
+.main_banner .scroll:before{display: block; position: absolute; content: ""; left: 0%; top: 95%; transform: translate(-50%, -50%); background: url(/imgs/scroll_visual.png) no-repeat center; width: 100%; height: 100%; border-radius: 50%;}
 .main_banner .scroll::after{display: block; position: absolute; content: ""; left: 0%; top: 95%; transform: translate(-50%, -50%) rotate(0deg);background: 0; width: 4.5%; height: 9%; border-radius: 50%; border-right: 2px solid rgba(255, 255, 255, 1); animation: scroll 1.5s infinite linear;}
 @keyframes scroll{
 	0%{transform:translate(-50%, -50%) rotate(0deg);}
@@ -66,14 +66,14 @@ header .inner .detail {text-align: center; }
 .main_banner .inner .titlewrap{width: 100%; position: absolute; top: 40%; left: 68.5%; transform: translate(-50%, -50%);}
 .sec .conwrap{width: 100%; padding: 6% 95px 0; box-sizing: border-box; margin: 0 auto;}
 .sec1 .titlearea{width: 100%; display: flex; align-items: end; justify-content: space-between;}
-.sec1.on .titlearea h3{font-size: 36px; font-weight: 700; opacity: 1;transform: translateY(0px);transition: all 0.9s;transition-delay: 0.2s;}
+.sec1.on .titlearea h3{font-size: 36px; font-weight: 700; opacity: 1;transform: translateY(0px);transition: all 0.9s;transition-delay: 0.2s; color: #000;}
 .sec1.on .news{opacity: 1;transform: translateY(0px); transition: all .9s;}
 .more_btn{display: flex;align-items: center;position: relative;}
 .more_btn>span{color: #000;display: block;position: relative;z-index: 50;font-family: "Wix Madefor Display"; font-weight: 500;}
 .more_btn>i{display: block;position: relative;z-index: 50;margin-left: 10px;width: 16px;height: 7px;}
-.sec1 .more_btn>i{background: url(/projects/protium/imgs/more_bk.png) no-repeat center;}
+.sec1 .more_btn>i{background: url(/imgs/more_bk.png) no-repeat center;}
 .swiper-wrapper{transform: translate3d(0px, 0px, 0px);position: relative; width: 100%;height: 100%; z-index: 1; display: flex; box-sizing: content-box;}
-.sec1{background-image: url(/projects/protium/imgs/sec5_bg.jpg);}
+.sec1{background-image: url(/imgs/sec5_bg.jpg);}
 .sec1 .news{margin-top: 5vh;padding-bottom: 4vh;}
 .sec1 .news .swiper-slide {position: relative;margin-right: 60px; width: 384px;height: 495px;background: transparent;box-sizing: border-box;padding: 30px;cursor: pointer;transition: all 0.4s ease;}
 .sec1 .news .swiper-slide:before {content: ""; position: absolute; top: 0;left: 0;width: 100%; height: 100%;mask-image: url(../imgs/sec5_news_slide.svg);mask-repeat: no-repeat;mask-size: 100%;background: rgba(255, 255, 255, 1);}
@@ -88,8 +88,8 @@ header .inner .detail {text-align: center; }
 .sec1 .news .swiper-slide .thumb{max-width: 100%; width: 340px; height: 200px;overflow: hidden;border-radius: 20px;}
 .sec1 .news .swiper-slide .thumb img{width: 100%;height: 100%;object-fit: cover;z-index: 100;position: relative;}
 .sec1 .news .swiper-slide .thumb img{width: 100%;height: 100%;object-fit: cover;z-index: 100;position: relative;}
-.sec2{background: url(/projects/protium/imgs/sec2_bg.jpg);}
+.sec2{background: url(/imgs/sec2_bg.jpg);}
 .sec2{width: 100%;/* display: flex; */align-items: end;justify-content: space-between;}
-.sec2.on .titlearea h3{opacity: 1;transform: translateY(0px);transition: all 0.9s;transition-delay: 0.2s;}
+.sec2.on .titlearea h3{opacity: 1;transform: translateY(0px);transition: all 0.9s;transition-delay: 0.2s;color: #fff;}
 .sec2 .titlearea h3{margin-bottom: 10px;}
-.sec .titlearea h3{font-size: 36px;font-weight: 600;color: #fff;}
+.sec .titlearea h3{font-size: 36px;font-weight: 600;}
